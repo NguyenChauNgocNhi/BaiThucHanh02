@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../images/head-background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+}
+.boders{
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #CED086;
+    
+}
+.boders{
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #CED086;
+    
+}
+.boders p{
+    color: rgba(255, 255, 255, 0.952);
+    text-align: center;
+}
+.boders .p1{
+    font-size:27px;
+}
+.boders .p2{
+    font-size:13px;
+}
+.boders .button{
+    background-color:#C5D301;
+    padding: 10px;
+    color: white;
+    margin-left: 30%;
+    border-color: rgba(255, 255, 255, 0);
+    margin-top: 5px;
+}
+.boders .input .bd{
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.329) ;
+    padding: 4%;
+    border-top-color: rgba(124, 124, 124, 0.089);
+    border-left-color: rgba(124, 124, 124, 0.089);
+    border-right-color: rgba(124, 124, 124, 0.089);
+
+}
+.bd::-webkit-input-placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    
+    width: 100%;
+    height: 100%;
+}
+.container-first{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.container1{
+    background-color: #81AF53;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+}
+.container1 div{
+    padding: 20px;
+    text-align: justify;
+}
+.end{
+    background-color: #DCE085;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.form-row{
+    margin: 10px;
+}
+.form-control{
+    border-color: rgba(255, 255, 255, 0.808);
+    color: black;
+    width: 200px;
+}
+.f1{
+    background-color: #2D8C15;
+    color: white;
+    width: 200px;
+}
